@@ -1,5 +1,5 @@
 var requesturl1 = "https://mcapi.us/server/status?ip=98.26.9.103";
-var requesturl2 = "https://mcapi.us/server/status?ip=98.26.9.103:25580";
+var requesturl2 = "https://mcapi.us/server/status?ip=98.26.9.103&port=25580";
 
 $.getJSON(requesturl1, function(json) {
     var html = '';
